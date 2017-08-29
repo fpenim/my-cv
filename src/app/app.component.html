@@ -1,61 +1,32 @@
-<!--
-<div class="top-bar">
-  <div class="top-bar-left">
-    <ul class="dropdown menu" data-dropdown-menu>
-      <li class="menu-text"><h1>{{title}}</h1></li>
-      <li><a href="#"><h3>About</h3></a></li>
-      <li><a href="#"><h3>Contact</h3></a></li>
-    </ul>
+
+<nav class="top-bar topbar-responsive">
+  <div class="top-bar-title">
+    <h4>{{title}}</h4>
   </div>
-  <div class="top-bar-right">
-    <ul class="menu">
-      <li><input type="search" placeholder="Search"/></li>
-      <li><button type="button" class="button">Search</button></li>
-    </ul>
+  <div id="topbar-responsive" class="topbar-responsive-links">
+    <div class="top-bar-right">
+      <ul class="menu simple vertical medium-horizontal">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">Contact</a></li>
+        <li>
+          <button type="button" class="button hollow topbar-responsive-button">Categories</button>
+        </li>
+      </ul>
+    </div>
   </div>
-</div>
--->
+</nav>
+
 <header class="subnav-hero-section">
-  <h1 class="subnav-hero-headline">{{title}}</h1>
-  <ul class="subnav-hero-subnav">
-    <li><a href="#">About</a></li>
-    <li><a href="#" class="is-active">Contact</a></li>
-    <li><a target="_blank" href="http://zurb.com/responsive">Just do it!</a></li>
-  </ul>
+  <img class="profile-pic" src="assets/profile-pic.JPG" alt="profile-image"/>
+  <div class="subnav-hero-container">
+    <h1 class="subnav-hero-headline">{{title}}</h1>
+    <h3>Software Developer</h3>
+    <div class="social-icons">
+      <a href="https://github.com/fpenim"><img src="assets/github.png"/></a>
+      <a href="https://www.linkedin.com/in/flaviapenim/"><img src="assets/linkdIn.png"/></a>
+      <a href="https://twitter.com/flaviapenim"><img src="assets/twitter.png"/></a>
+    </div>
+  </div>
 </header>
-
-<div class="card-profile-stats">
-  <div class="card-profile-stats-intro">
-    <img class="card-profile-stats-intro-pic" src="https://pbs.twimg.com/profile_images/732634911761260544/OxHbNdTF.jpg" alt="profile-image" />
-    <div class="card-profile-stats-intro-content">
-      <h3>Joe Smith</h3>
-      <p>Joined Jan.16th 2017</p>
-    </div> <!-- /.card-profile-stats-intro-content -->
-  </div> <!-- /.card-profile-stats-intro -->
-
-  <hr />
-
-  <div class="card-profile-stats-container">
-    <div class="card-profile-stats-statistic">
-      <span class="stat">25</span>
-      <p>posts</p>
-    </div> <!-- /.card-profile-stats-statistic -->
-    <div class="card-profile-stats-statistic">
-      <span class="stat">125</span>
-      <p>followers</p>
-    </div> <!-- /.card-profile-stats-statistic -->
-    <div class="card-profile-stats-statistic">
-      <span class="stat">88</span>
-      <p>likes</p>
-    </div> <!-- /.card-profile-stats-statistic -->
-  </div> <!-- /.card-profile-stats-container -->
-
-  <div class="card-profile-stats-more">
-    <p class="card-profile-stats-more-link"><a href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a></p>
-    <div class="card-profile-stats-more-content">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem libero fugit, pariatur maxime! Optio enim, deserunt quia molestiae fugiat delectus, dolore et esse nostrum, quod autem necessitatibus fugit soluta repellendus.
-      </p>
-    </div> <!-- /.card-profile-stats-more-content -->
-  </div> <!-- /.card-profile-stats-more -->
-</div> <!-- /.card-profile-stats -->
